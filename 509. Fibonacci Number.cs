@@ -14,8 +14,7 @@ namespace Name
         }
         static int Fib(int n)
         {
-            if (n == 0) return 0;
-            if (n == 1) return 1;
+            if (n < 2) return n;
             int f = 0;
             int n1 = 1;
             int n2 = 0;
